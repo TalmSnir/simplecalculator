@@ -1,0 +1,84 @@
+#container {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 40px auto;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+#history {
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#result {
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px
+}
+
+#keyboard {
+    height: 380px;
+    width: auto;
+    margin: auto 10px;
+}
+
+button {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin: 10px 5px;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#spacing {
+    background: none;
+    border: none;
+}
+
+.number:hover,
+.operator:hover,
+.equal:hover,
+.func:hover {
+    cursor: pointer;
+}
+
+.number:focus,
+.operator:focus,
+.equal:focus,
+.func:focus {
+    font-size: 28px;
+    outline: 0px solid transparent;
+    text-shadow: 0.5px 0.5px gray;
+}
+
+.number {
+    background: rgb(218, 217, 217);
+}
+
+#plus {
+    background: cyan;
+}
+
+#minus {
+    background: rgb(218, 219, 125);
+}
+
+#multi {
+    background: rgb(129, 233, 152);
+}
+
+#divide {
+    background: pink;
+}
+
+#equal {
+    background: rgb(219, 125, 156);
+}
