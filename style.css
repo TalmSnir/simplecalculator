@@ -8,17 +8,27 @@
 }
 
 #history {
-    height: 30px;
+    height: 10px;
     width: 100%;
     margin-top: 10px;
-    font-size: 12px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#history-results {
+    padding-right: 10px;
+    text-align: right;
 }
 
 #result {
-    height: 50px;
+    height: 30px;
     width: 100%;
-    font-size: 20px;
-    margin-bottom: 10px
+    font-size: 30px;
+}
+
+#current-results {
+    padding-right: 10px;
+    text-align: right;
 }
 
 #keyboard {
