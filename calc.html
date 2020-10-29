@@ -3,36 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="calcjs.js"></script>
+    <script src="calcjs.js" defer></script>
     <link rel="stylesheet" href="style.css" type="text/css" ></link>
     <title>first build javascript  calculator</title>
 </head>
 <body>
 <div id="container">
 
-    <div id="history"></div>
-    <div id="result"></div>
+    <div id="history">
+        <div id="history-results">
+        <p></p>
+        </div>
+    </div>
+    <div id="result">
+        <div id="current-results">
+        <p></p>
+        </div>
+    </div>
     <div id="keyboard">
-    <button class="func" id="clear">C</button>
-    <button class="func" id="backspace">CE</button>
-    <button class="func" id="percent">%</button>
-    <button class="operator" id="plus">+</button>
-    <button class="number" id="7">7</button>
-    <button class="number" id="8">8</button>
-    <button class="number" id="9">9</button>
-    <button class="operator" id="multi">&times</button>
-    <button class="number" id="4">4</button>
-    <button class="number" id="5">5</button>
-    <button class="number" id="6">6</button>
-    <button class="operator" id="divide">&divide</button>
-    <button class="number" id="1">1</button>
-    <button class="number" id="2">2</button>
-    <button class="number" id="3">3</button>
-    <button class="operator" id="minus">-</button>
-    <button class="space" id="spacing"></button>
-    <button class="number" id="0">0</button>
-    <button class="space" id="spacing"></button>
-    <button class="equal" id="equal">=</button>
+        <button class="func" id="clear">C</button>
+        <button class="func" id="backspace">CE</button>
+        <button class="func" id="percent">%</button>
+        <button class="operator" id="plus">+</button>
+        <button class="number" id="7">7</button>
+        <button class="number" id="8">8</button>
+        <button class="number" id="9">9</button>
+        <button class="operator" id="multi">&times</button>
+        <button class="number" id="4">4</button>
+        <button class="number" id="5">5</button>
+        <button class="number" id="6">6</button>
+        <button class="operator" id="divide">&divide</button>
+        <button class="number" id="1">1</button>
+        <button class="number" id="2">2</button>
+        <button class="number" id="3">3</button>
+        <button class="operator" id="minus">-</button>
+        <button class="space" id="spacing"></button>
+        <button class="number" id="0">0</button>
+        <button class="space" id="spacing"></button>
+        <button class="equal" id="equal">=</button>
     </div>
 </div>
     
