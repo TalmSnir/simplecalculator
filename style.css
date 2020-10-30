@@ -54,16 +54,12 @@ button {
 }
 
 .number:hover,
-.operator:hover,
-.equal:hover,
-.func:hover {
+.operator:hover {
     cursor: pointer;
 }
 
 .number:focus,
-.operator:focus,
-.equal:focus,
-.func:focus {
+.operator:focus {
     font-size: 28px;
     outline: 0px solid transparent;
     text-shadow: 0.5px 0.5px gray;
@@ -73,22 +69,22 @@ button {
     background: rgb(218, 217, 217);
 }
 
-#plus {
-    background: cyan;
+button:nth-child(4) {
+    background-color: cyan;
 }
 
-#minus {
-    background: rgb(218, 219, 125);
+button:nth-child(8) {
+    background-color: rgb(218, 219, 125);
 }
 
-#multi {
-    background: rgb(129, 233, 152);
+button:nth-child(12) {
+    background-color: rgb(129, 233, 152);
 }
 
-#divide {
-    background: pink;
+button:nth-child(16) {
+    background-color: pink;
 }
 
-#equal {
-    background: rgb(219, 125, 156);
+button:nth-child(20) {
+    background-color: rgb(219, 125, 156);
 }
